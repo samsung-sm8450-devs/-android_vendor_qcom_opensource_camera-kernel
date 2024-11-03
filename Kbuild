@@ -43,7 +43,7 @@ include $(CAMERA_KERNEL_ROOT)/config/cape.mk
 endif
 
 #sensor header path for adaptive mipi
-CAMERA_KERNEL_PATH = $(srctree)/../../vendor/qcom/opensource/camera-kernel
+CAMERA_KERNEL_PATH = $(srctree)/techpack/camera-kernel
 
 ifeq ($(CONFIG_SEC_R0Q_PROJECT), y)
 SRC_WIDE_FILES = $(CAMERA_KERNEL_PATH)/drivers/cam_sensor_module/cam_sensor/adaptive_mipi/cam_sensor_adaptive_mipi_s5kgn3.h
